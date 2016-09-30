@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<link rel="stylesheet" href="css/case.css"/>
+<title>北京迈可思科技有限公司</title>
+<script src="js/jquery-1.11.3.min.js"></script>
+    <style>
+        .none{
+            display:none;
+            border:#e0e0e0 solid 1px;
+        	}
+    </style>
+
+
+
+</head>
+
+<body>
+<nav>
+	<div class="inner">
+    	<div class="nav_l">
+        	<a href="index.html"><img src="images/logo_nav.png" /></a>
+        </div>
+        <div class="nav_r">
+        	<ul>
+            	<li><a href="index.html">首页</a></li>
+            	<li><a href="maketing.html">营销策略</a></li>
+            	<li><a href="media.html">投放方式</a></li>
+            	<li><a href="idea.html">创意支持</a></li>
+            	<li><a href="#"><span style="color:#2c73ba">成功案例</span></a></li>
+            	<li><a href="about.html">关于我们</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="share">
+	<div class="inner">
+    	<div class="share_bt"><img src="images/case_share_bt.png" /></div>
+        <div class="share_01">
+        	<div class="share_pic"><img src="images/case-01.jpg" /><p>奔驰冰雪对决</p></div>
+            <div class="share_text">
+            	<p><span style="color:#71b4ff;">项目需求：</span>精准覆盖目标受众，传播奔驰冰雪对决活动，提升产品关注度，收集销售线索；<br><span style="color:#71b4ff;">推广策略：</span>人群定向购买，定向一二线中心城市传播；<br><span style="color:#71b4ff;">媒体筛选：</span>根据目标受众人群，筛选新闻类、财经类、汽车类媒体，进行投放；<br><span style="color:#71b4ff;">广告形式：</span>Banner、插屏。</p>
+            </div>
+            <div class="look">
+                <div class="detail_benz"><button class="detail" onclick="dian(this)">查看详情</button></div>
+                <div class="none">
+        			<p><button class="cancel" onclick="hide(this)">X</button></p>
+                    <img class="benz_pic" src="images/case_detail_benz.png" />
+    			</div>
+            </div>
+        </div>
+        <div class="share_02">
+        	<div class="share_pic"><img src="images/case-12.jpg" /><p>德芙巧克力</p></div>
+            <div class="share_text">
+            	<p><span style="color:#71b4ff;">广告形式：</span>视频贴片广告；<br><span style="color:#71b4ff;">投放目标：</span>通过迈可思DMP媒体平台，联合八大视频媒体，对匹配目标人群进行广告投放展示；跨媒体频次控制，增加广告有效覆盖。</p>
+            </div>
+            <div class="look02">
+                <div class="detail_dove"><button class="detail" onclick="dian(this)">查看详情</button></div>
+                <div class="none">
+        			<p><button class="cancel" onclick="hide(this)">X</button></p>
+                    <img class="dove_pic" src="images/case_detail_dove.png" />
+    			</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nr">
+	<div class="inner">
+    	<div class="bt">
+        	<img src="images/case_bt.png" />
+        </div>
+        <div class="anli">
+        	<ul>
+            	<li><img src="images/case-02.jpg" /><p>宝马全车系</p></li>
+            	<li><img src="images/case-03.jpg" /><p>奥迪A3</p></li>
+            	<li><img src="images/case-04.jpg" /><p>丰田卡罗拉</p></li>
+            	<li><img src="images/case-14.jpg" /><p>易车商城成都双12</p></li>
+            </ul>
+        	<ul>
+            	<li><img src="images/case-05.jpg" /><p>欧莱雅空气气垫霜</p></li>
+            	<li><img src="images/case-06.jpg" /><p>宝洁沙宣</p></li>
+            	<li><img src="images/case-07.jpg" /><p>雅诗兰黛倾慕唇膏</p></li>
+            	<li><img src="images/case-08.jpg" /><p>HR澄光肌活乳</p></li>
+            </ul>
+        	<ul>
+            	<li><img src="images/case-09.jpg" /><p>伊利QQ星</p></li>
+            	<li><img src="images/case-10.jpg" /><p>雀巢奶粉</p></li>
+            	<li><img src="images/case-11.jpg" /><p>汉堡王</p></li>
+            	<li><img src="images/case-16.jpg" /><p>中国农业银行</p></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<footer>
+	<div class="inner">
+    	<div class="logo">
+        	<img src="images/logo_fot.png" />
+        </div>
+        <div class="text">
+        	<div class="nav_fot">
+            	<p><a href="about.html">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="about.html">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="about.html">加入我们</a></p>
+            </div>
+            <div class="copy">
+            	<p>Copyright © 1059--2015 MCAS.COM.CN 京ICP备14052340号</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+<script>
+    function dian(a){
+        if($(a).parent().next().css("display")=="none"){
+            $(a).parent().next().show();
+        }else{
+            $(a).parent().next().hide();
+        }
+    }
+    function hide(b){
+        if($(b).parent().parent().css("display")=="none"){
+            $(b).parent().parent().show();
+        }else{
+            $(b).parent().parent().hide();
+        }
+    }
+</script>

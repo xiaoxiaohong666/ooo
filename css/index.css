@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial,Verdana,"microsoft yahei";s
+	}
+img{
+	border:none;
+	}
+input{
+	border:none;
+	}
+li{
+	list-style:none;
+	}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+	}
+a{
+	text-decoration:none;
+	}
+html,body{
+	width:100%;
+	height:100%;
+	}
+.inner{
+	width:1000px;
+	margin:0 auto;
+	}
+.clear{
+	clear:both;
+	}
+nav{
+	height:80px;
+	width:100%;
+	background-color:#fff;
+	box-shadow:0 5px 10px rgba(0,0,0,0.1);
+	z-index:9999;
+	}
+.nav_l{
+	padding-top:20px;
+	float:left;
+	}
+.nav_r{
+	float:right;
+	}
+.nav_r ul li{
+	float:left;
+	padding-left:50px;
+	}
+.nav_r ul li a{
+	font-size:20px;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif,'微软雅黑';
+	color:#777;
+	line-height:80px;
+	}
+.nav_r ul li a:hover{
+	color:#2c73ba;
+	transition:all 0.5s;
+	}
+.banner{
+	width:100%;
+	height:500px;
+	background:url(../images/index_banner_bg.jpg) no-repeat center center;
+	background-size:cover;
+	}
+.banner_l{
+	float:left;
+	}
+.banner_r{
+	float:right;
+	}
+.expert_text{
+	width:880px;
+	padding-left:60px;
+	}
+.expert_text p{
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif,'微软雅黑';
+	font-size:18px;
+	color:#777;
+	line-height:36px;
+	}
+.expert_pic{
+	padding-top:40px;
+	}
+.service{
+	height:480px;
+	}
+.service_nr{
+	padding-left:60px;
+	}
+.service_nr p{
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif,'微软雅黑';
+	font-size:22px;
+	color:#8da1bf;
+	text-align:center;
+	margin-top:20px;
+	border:solid 1px #8da1bf;
+	}
+.service_nr p:hover{
+	background:#8da1bf;
+	color:#fff;	
+	transition:all 0.5s;
+	}
+.plan{
+	width:200px;
+	height:302px;
+	float:left;
+	padding-right:130px;
+	}
+.marketing{
+	width:220px;
+	height:302px;
+	float:left;
+	padding-right:130px;
+	}
+.idea{
+	width:200px;
+	height:302px;
+	float:left;
+	}
+.kehu{
+	height:414px;
+	}
+.kehu ul li{
+	padding-bottom:30px;
+	float:left;
+	}
+.kehu ul .li_left{
+	padding-right:66px;
+	}
+footer{
+	background-color:#333333;
+	height:124px;
+	width:100%;
+	}
+.logo{
+	padding-left:160px;
+	padding-top:40px;
+	float:left;
+	}
+.text{
+	float:left;
+	padding-left:40px;
+	padding-top:42px;
+	}
+.nav_fot p{
+	color:#fff;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif,'微软雅黑';
+	font-size:16px;
+	}
+.nav_fot a{
+	color:#fff;
+	}
+.copy p{
+	color:#fff;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif,'微软雅黑';
+	font-size:14px;
+	}
